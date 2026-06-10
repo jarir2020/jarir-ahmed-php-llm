@@ -27,6 +27,13 @@
         "ext-pdo": "Required for the persistent memory driver and the pgvector vector driver.",
         "vlucas/phpdotenv": "Load a .env file so the packaged config picks up provider API keys automatically."
     },
+    "extra": {
+        "nemesis": {
+            "providers": [
+                "JarirAhmed\\PhpLlm\\Bridge\\NemesisServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "JarirAhmed\\PhpLlm\\": "src/"
